@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaAcript Event Handling and Interactive Elements</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body id="main">
+    <!--Creating elements to make use of event handling-->
+    <div id="eventDiv">
+        <button id="click-meBtn">Click me</button>
+        <p id="div-text">This is a div section</p>
+    </div>
+
+    <!--Interactive Element-->
+    <button id="toggleBtn">Dark Mode</button>
+
+    <h2>Signup Form</h2>
+    <form id="myForm">
+        <label>Name:</label>
+        <input type="text" id="name" />
+        <div id="nameError" class="error"></div>
+
+        <label>Email:</label>
+        <input type="text" id="email" />
+        <div id="emailError" class="error"></div>
+
+        <label>Password:</label>
+        <input type="password" id="password" />
+        <div id="passwordError" class="error"></div>
+
+        <button type="submit">Submit</button>
+        <div id="formMessage"></div>
+    </form>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
